@@ -2,6 +2,7 @@ import pygsheets
 import csv
 import os
 import sys
+import time
 
 #Query function
 def query_yes_no(question, default="yes"):
@@ -95,3 +96,4 @@ else:
     print levelHashGS
     print levelHashCsv
 print "Data successfully loaded to Google Sheets!"
+time.sleep(5)
