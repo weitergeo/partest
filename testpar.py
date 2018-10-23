@@ -94,3 +94,4 @@ else:
         #wks2.update_col(levelNoCsv + 1, values=ResultList, row_offset=2)
     print levelHashGS
     print levelHashCsv
+print "Data successfully loaded to Google Sheets!"
