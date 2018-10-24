@@ -92,7 +92,8 @@ else:
     else:
         print "All data is lost"
         # @TODO search for exists hashes and write data to existing hashes, or write it to new columns
-        #wks2.update_col(levelNoCsv + 1, values=ResultList, row_offset=2)
+        #wks2.update_col(levelNoCsv + 1, values=ResultList, row_offset=2
+        # dfjlkdgsnglsnlgnsdl)
     print levelHashGS
     print levelHashCsv
 print "Data successfully loaded to Google Sheets!"
