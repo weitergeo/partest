@@ -43,8 +43,8 @@ def query_yes_no(question, default="yes"):
 CsvList = list(csv.reader(open('test_2.csv')))
 
 #Parse level number and hash from .CSV
-levelNoCsv = int(CsvList[1][0])
 levelHashCsv = CsvList[0][0]
+levelNoCsv = int(CsvList[1][0])
 
 #Delete number and hash from list
 del CsvList[0:2] 
@@ -78,7 +78,7 @@ ResultList = IntCsv
 #Summing numbers in list
 for i in range(len(IntSheet)):
     ResultList[i] = IntSheet[i] + IntCsv[i]
-
+    
 #Hashes comparison
 if levelHashGS == '0':
     wks.update_col(levelNoCsv + 1, values=ResultList, row_offset=2)
